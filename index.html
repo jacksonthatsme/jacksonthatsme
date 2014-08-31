@@ -6,7 +6,7 @@ layout: default
 <ul class="thumbnails">
   {% for post in site.posts %}
     <li class="thumbnail" style="background-color:pink;">
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <a href="{{ post.url }}">
         <div class="information">
           <img src="{{post.logo}}" alt="{{post.title}}" class="thumb-logo" />
           <div class="tags">
